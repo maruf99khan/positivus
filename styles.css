@@ -197,6 +197,72 @@ height: 186px;
 background: #FFF;
 }
 
+
+.fifth{
+    display: flex;
+    width: auto;
+padding: 41px 60px;
+flex-direction: column;
+align-items: flex-start;
+gap: 30px;
+border-radius: 45px;
+border: 1px solid #191A23;
+background: var(--Green, #B9FF66);
+box-shadow: 0px 5px 0px 0px #191A23;
+margin: 100px;
+}
+.f1 p{
+    color: #000;
+font-family: "Space Grotesk";
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 612px;
+}
+
+.sixth{
+    display: flex;
+    width: auto;
+padding: 41px 60px;
+flex-direction: column;
+align-items: flex-start;
+gap: 30px;
+border-radius: 45px;
+border: 1px solid #191A23;
+background: var(--Grey, #F3F3F3);
+box-shadow: 0px 5px 0px 0px #191A23;
+margin: 100px;
+}
+.f2 p{
+    color: #000;
+font-family: "Space Grotesk";
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 612px;
+}
+.one{
+    color: #000;
+font-family: "Space Grotesk";
+font-size: 60px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.f1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.f2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
 @media screen and (max-width: 430px){
     .nav{
         display: none;
